@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying a single case study
  *
- * This is the template that displays all pages by default.
+ * This is the template that displays a single case study by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
  * different template.
@@ -59,7 +59,7 @@ get_header(); ?>
           } ?>
                
           
-<!--  
+<!--  better to use above code
           <?php if($image_1) { ?>
             <img src="<?php echo $image_1; ?>" />
           <?php } ?>
@@ -80,7 +80,7 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
       
       <div id="navigation" class="container">
-	       <div class="left"><a href="#">&larr; <span>Back To Work</span></a></div>
+	       <div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back To Work</span></a></div>
       </div>
       
 		</div><!-- .main-content -->

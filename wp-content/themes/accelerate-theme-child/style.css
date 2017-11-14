@@ -95,6 +95,7 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
+  padding-bottom: 5%;
 }
 
 aside.case-study-sidebar {
@@ -116,7 +117,7 @@ div.case-study-images {
 
 div.case-study-images img {
   display: block;
-  margin-bottom: 50px;
+  margin: 5% auto;
   border: 1px solid #ddd;
 }
 
@@ -128,7 +129,12 @@ div#navigation {
   width: 100%;
 }
 
+/* * * Work Page or Case Studies Archive * * */
 
+div.case-study-images img {
+  width: 100%;
+  height: auto;
+}
 
 
 
