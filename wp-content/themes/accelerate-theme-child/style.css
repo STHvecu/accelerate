@@ -24,6 +24,42 @@
 	background: #45ac9d;
 }
 
+/* * * * * Featured Work * * * * */
+.featured-work {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.featured-work h4 {
+  text-transform: uppercase;
+  text-align: center;  
+  padding-bottom: 3%;
+}
+
+
+.homepage-featured-work {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;   
+  align-items: center;
+  justify-content: space-between;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;  
+}
+
+.individual-featured-work {
+  width: 30%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* * * * * Blog Post * * * * */
+
 .blog-post {
   width: 50%;
   float: left;
@@ -91,5 +127,10 @@ div.case-study-images img {
 div#navigation {
   width: 100%;
 }
+
+
+
+
+
 
 
