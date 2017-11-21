@@ -136,6 +136,37 @@ div.case-study-images img {
   height: auto;
 }
 
+/* * * Footer Social Media Navigation * * */
+/*using MENU SOCIAL ICONS Plugin */ 
+nav.social-media-navigation {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul.social-media-menu  {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.social-media-menu li {
+    list-style-type: none;
+    display: flex;
+    width: 3em;
+    height: 3em;
+    background: #3b3b3b;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item a {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}   
+
 
 
 
