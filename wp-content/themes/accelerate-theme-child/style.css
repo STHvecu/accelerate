@@ -167,6 +167,49 @@ ul.social-media-menu  {
   color: #ffffff;
 }   
 
+/* * * Contact Us Page - Modify Plug-in * * */
+
+/* Make the page narrower  */
+div#primary {
+    width: 75%;
+}
+
+/* remove field required comment */
+.nf-form-fields-required {
+  display: none;
+}
+
+/* remove asterisk symbol for required fields */
+span.ninja-forms-req-symbol {
+  display: none;
+}
+
+/* adjust field label font sizes */
+.nf-field-label {
+    font-size: 80%;
+}
+
+/* adjust error message font sizes */
+.nf-error, .nf-error-msg {
+    font-size: 80%;
+}
+
+/* move Submit button to the right */
+div#nf-field-4-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* change Submit button background color */
+input[type="button"], input[type="submit"] {
+  background: #45ac9d;
+}
+
+/* make Message border color consistent with other boxes */
+textarea#nf-field-3 {
+    border-color: rgb(191, 191, 191);
+}
+
 
 
 
